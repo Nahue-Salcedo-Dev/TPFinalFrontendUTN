@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Josefin+Slab:wght@700&family=Open+Sans:ital,wght@1,500&display=swap');
+
+/* NAVBAR */
+nav{
+    background-color: rgb(48, 5, 48);
+    display: flex;
+    padding: 10px;
+    padding-right: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;    
+}
+.navBar li a{
+    text-decoration: none;
+    color: white;
+}
+.navBar li{
+    list-style: none;
+    padding-left: 20px;
+    transition: transform 0.3s;
+}
+.navBar li:hover{
+    transform: scale(1.1);
+}
+
+/*HERO*/
+
+.hero{
+    background-color: rgb(48, 5, 48);
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10%;
+    border: 2px solid white;
+}
+.hero h1{
+    font-size: 70px;
+    font-family: 'Josefin Slab', serif;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+.button{
+    cursor: pointer;
+    height: 34px;
+}
+.button:hover{
+    background-color: rgb(88, 11, 88);
+    color: white;
+}
+
+/* MOVIES */
+
+.containerFilm{
+    border: 3px solid white;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(48, 5, 48);
+}
+.titleFilm{
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+.films{
+    display: flex;
+    flex-wrap: wrap;  
+    text-align: center;
+    justify-content: space-around;
+    transition: transform 0.3s;   
+}
+.filmCard{    
+    border: 2px solid white;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    background-color: black;
+}
+.filmCard:hover{
+    transform: scale(1.02);
+}
+h3 {
+    font-size: 30px;
+    text-wrap: wrap;
+}
+p{
+    font-size: 19px;
+    text-wrap: wrap;
+    margin-bottom: 30px;
+}
+h3 , img{
+    padding-bottom: 20px;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+.buttonFavorites{
+    cursor: pointer;
+    height: 34px;
+}
+.buttonFavorites:hover{
+    background-color: rgb(88, 11, 88);
+    color: white;
+}
+
+/* FAVORITES  */
+
+.containerFavorites{
+    border: 2px solid white;
+    background-color: rgb(48, 5, 48);
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.containerFavorites h2{
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+
+
+
